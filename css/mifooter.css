@@ -1,0 +1,99 @@
+/*  
+    IMPORTAR A HTML:
+    
+    <link rel="stylesheet" href="milogo.css">
+    <a href="#" class="logo">J<span>Z</span>9</a>  
+    display:flex;
+    justify-content: space-between;
+*/
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+
+.container-footer{
+    background: rgb(109, 108, 108);
+    padding: 40px 0px;
+    width:  100%;
+    margin-top: 40px;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 25px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+.container-footer footer .redes-footer .fa-facebook-f:hover{
+    color: white;
+    background-color: blue;
+    transition: 300ms;
+}
+
+.container-footer footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: white;
+    transition: 300ms;
+}
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    color: black;
+}
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    font-weight: 500;
+}
+
+.container-footer footer .redes-footer .fa-twitter:hover{
+    color: rgb(17, 11, 11);
+    background-color: rgb(71, 209, 255);
+    transition: 300ms;
+}
+
+.container-footer .logo-footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer .logo-footer .milogo,
+.container-footer .logo-footer .milogo2{
+    width:100px;
+    padding:8px 4px;
+    font-size:3.5em;
+    color:#045E67;
+    text-decoration:none;
+}
+
+.container-footer .logo-footer .milogo span{
+    color:#3D3D3F;
+}
+.container-footer .logo-footer .milogo{
+    font-family: 'Bangers', cursive;
+}
+
+.container-footer .logo-footer .milogo p{
+    font-family: 'Solway', serif;
+}
